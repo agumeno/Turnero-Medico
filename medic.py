@@ -29,7 +29,6 @@ def load_medic():
 
         writer.writerow(medicos)
 
-import csv
 def medic_array():
     with open("medicos.csv", "r") as file:
         reader = csv.reader(file)

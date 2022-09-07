@@ -1,8 +1,7 @@
-clinica = "Camila"
 import os.path
 import csv
 import pandas as pd
-if clinica == "Camila": 
+if __name__ == '__main__': 
     print ("Bienvendo a la clinica Camila")
     entrar = input(str("Presione \n1 Si quiere ingresar al sistema \n2 Si quiere sacar un turno medico\n"))
     if entrar == "1":
